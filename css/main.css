@@ -1,0 +1,22 @@
+body {
+    background-color: beige;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
+    background-color: black;
+}
+
+div:nth-child(2) {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+div:nth-child(3) {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+div:nth-child(4) {
+    background-color: rgba(0, 0, 0, .2);
+}
